@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".CreateAccount">
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="200px"
-        android:layout_marginLeft="450px"
+        android:layout_centerHorizontal="true"
         android:textSize="30dp"
 
-        android:text="Login" />
+        android:text="Create account" />
 
     <EditText
         android:id="@+id/email"
@@ -41,24 +40,15 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/pw"
         android:layout_centerHorizontal="true"
-        android:text="Login" />
+        android:text="Create" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Create account"
+        android:text="Already have an account?"
         android:layout_below="@id/button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"/>
-
-    <TextView
-        android:id="@+id/fp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Forgot password"
-        android:layout_marginTop="50px"
-        android:layout_below="@id/textView2"
-        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
